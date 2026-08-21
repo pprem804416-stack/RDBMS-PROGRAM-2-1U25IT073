@@ -1,10 +1,10 @@
 CREATE DATABASE CollegeDB;
 USE CollegeDB;
-CREATE TABLE Student (
-    StudentID INT(5) PRIMARY KEY,
+CREATE TABLE Student(
+    StudentID INT(5) PRIMARY KEY, 
     StudentName VARCHAR(20),
-    DOB DATE,
+    DOB Date, 
     Gender VARCHAR(10),
     DepartmentID INT(5)
 );
-DESC Student;
+desc Student;
