@@ -7,4 +7,4 @@ CREATE TABLE Student (
     Gender VARCHAR(10),
     DepartmentID INT(5)
 );
-DESC Department;
+DESC Student;
